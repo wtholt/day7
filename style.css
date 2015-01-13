@@ -1,0 +1,79 @@
+.top-banner {
+	background-color: #33CCFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+}
+
+.octocat,
+.search,
+.nav-list,
+.user-info {
+	position: absolute;
+	top: 15px;
+}
+
+.octocat {
+	color: #fff;
+	left: 100px;
+
+}
+
+.search {
+	color: #fff;
+	left: 250px;
+}
+
+.nav-list {
+	color: #fff;
+	right: 450px;
+}
+
+.user-info {
+	color: #fff;
+	right: 125px;
+}
+
+.photo {
+	background-color:#33CCFF;
+	position: absolute;
+	top: 75px;
+	left: 25px;
+	right: 875px;
+	height: 150px;
+}
+
+.name {
+	background-color:#000000;
+	position: absolute;
+	top: 250px;
+	left: 25px;
+	right: 875px;
+	height: 45px;
+}
+
+.email {
+	background-color: #000;
+	position: absolute;
+	top: 305px;
+	left: 25px;
+	right: 875px;
+	height: 45px;
+}
+
+.organizations {
+	background-color: #000;
+	position: absolute;
+	top: 360px;
+	left: 25px;
+	right: 875px;
+	height: 45px;
+}
+
+
+
+
+
+
