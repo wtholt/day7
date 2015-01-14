@@ -189,7 +189,7 @@ body {
 	position: absolute;
 	top: 75px;
 	left: 10px;
-	right: 1100px;
+	right: 950px;
 	height: 150px;
 }
 
@@ -225,6 +225,7 @@ body {
 	left: -18px;
 	right: 875px;
 	height: 45px;
+	padding-bottom: 5px;
 }
 
 .email ul li:first-of-type {
@@ -235,6 +236,7 @@ body {
 	font-family: Helvetica;
 	font-size: 15px;
 	list-style: none;
+	padding: 3px;
 }
 
 .email ul li:last-of-type {
