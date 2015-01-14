@@ -1,5 +1,16 @@
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-family: Helvetica sans-serif
+}
 .top-banner {
-	background-color: #33CCFF;
+	background-color: #ECECEC;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -7,71 +18,298 @@
 	height: 50px;
 }
 
+.bottom-banner {
+	/*background-color: #33CCFF;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+}
+/*top banner info*/
 .octocat,
 .search,
 .nav-list,
 .user-info {
 	position: absolute;
 	top: 15px;
+	color: #333;
+	font-family: Helvetica;
+	font-size: 13px;
 }
 
 .octocat {
-	color: #fff;
+	/*color: #fff;*/
+	top: 10px;
 	left: 100px;
 
 }
 
 .search {
-	color: #fff;
-	left: 250px;
+	/*color: #fff;*/
+	top: 12px;
+	left: 150px;
+}
+
+.search input {
+	width: 300px;
+	height: 20px;
 }
 
 .nav-list {
-	color: #fff;
-	right: 450px;
+	/*color: #fff;*/
+	top: 0px;
+	left: 425px;
+}
+
+.nav-list ul li {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px;
 }
 
 .user-info {
-	color: #fff;
+	/*color: #fff;*/
+	top: 0px;
 	right: 125px;
 }
 
+.user-info ul li {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+/*Main Info*/
+
+.contributions {
+	/*background-color: #33ccff;*/
+	position: absolute;
+	top: 65px;
+	left: 230px;
+	right: 25px;
+	height: 40px;
+}
+
+.contributions ul li {
+	display: inline-block;
+	color: gray;
+	padding: 5px;
+	border-bottom: 1px solid #ECECEC;
+}
+
+.find {
+	/*background-color: #33ccff;*/
+	position: absolute;
+	top: 100px;
+	left: 225px;
+	right: 0px;
+	height: 40px;
+}
+
+.find input {
+	width: 300px;
+	height: 20px;
+}
+
+.find ul li {
+	display: inline-block;
+	color: #000;
+	padding: 5px;
+}
+
+.find ul button:first-of-type{
+	background-color: none;
+}
+
+.find ul button:last-of-type {
+	background-color: green;
+	height: 20px;
+}
+
+.repo1 {
+	/*background-color: #33ccff;*/
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	right: 25px;
+	height: 100px;
+	border-bottom: 1px solid gray
+}
+
+.repo1 ul li {
+	list-style: none;
+	padding: 5px;
+}
+.repo1 ul li:first-of-type {
+	font-size: 25px;
+	color: blue;
+	font-weight: bolder;
+}
+
+.repo1 ul li:last-of-type {
+	font-size: 15px;
+	color: gray;
+}
+
+.repo2 {
+	/*background-color: #33ccff;*/
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	right: 25px;
+	height: 100px;
+	border-bottom: 1px solid gray
+}
+
+.repo2 ul li {
+	list-style: none;
+	padding: 5px;
+}
+
+.repo2 ul li:first-of-type {
+	font-size: 25px;
+	color: blue;
+	font-weight: bolder;
+}
+
+.repo2 ul li:last-of-type {
+	font-size: 15px;
+	color: gray;
+}
+
+
+/*side column*/
 .photo {
-	background-color:#33CCFF;
+	background-image:url("william.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
 	position: absolute;
 	top: 75px;
-	left: 25px;
+	left: 10px;
 	right: 875px;
 	height: 150px;
 }
 
-.name {
-	background-color:#000000;
+.name {	
 	position: absolute;
-	top: 250px;
-	left: 25px;
+	top: 210px;
+	left: -18px;
 	right: 875px;
 	height: 45px;
+
 }
+
+.name ul li:first-of-type {
+	font-family: Helvetica;
+	font-size: 25px;
+	font-weight: bolder;
+	text-decoration: none;
+	list-style: none;
+}
+
+.name ul li:last-of-type {
+	font-family: Helvetica;
+	font-size: 19px;
+	text-decoration: none;
+	list-style: none;
+	border-bottom: 1px solid #ECECEC;
+}
+
 
 .email {
-	background-color: #000;
 	position: absolute;
-	top: 305px;
-	left: 25px;
+	top: 280px;
+	left: -18px;
 	right: 875px;
 	height: 45px;
 }
 
-.organizations {
-	background-color: #000;
+.email ul li:first-of-type {
+	text-decoration: blink;
+}
+
+.email ul li {
+	font-family: Helvetica;
+	font-size: 15px;
+	list-style: none;
+}
+
+.email ul li:last-of-type {
+	border-bottom: 1px solid #ECECEC;
+}
+
+.social {
 	position: absolute;
-	top: 360px;
-	left: 25px;
+	top: 315px;
+	left:-18px;
 	right: 875px;
 	height: 45px;
 }
 
+.social ul li {
+	display: inline-block;
+	font-family: Helvetica;
+	font-size: 30px;
+	padding: 15px;
+	color: blue;
+}
+
+.followers {
+	position: absolute;
+	top: 375px;
+	left: -18px;
+	right: 875px;
+	height: 45px;
+
+}
+
+.followers ul li {
+	display: inline-block;
+	font-size: 12px;
+	color: gray;
+	padding: 2px;
+	color: gray;
+}
+
+/*bottom banner info*/
+
+.github-links {
+	color: blue;
+	bottom: 0px;
+	position: absolute;
+	left: -10px;
+}
+
+.github-links ul li {
+	display: inline-block;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.octocat2 {
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+}
+
+.about-github {
+	color: #fff;
+	bottom: 0px;
+	position: absolute;
+	right: 50px;
+}
+
+.about-github ul li {
+	display: inline-block;
+	font-size: 13px;
+	color: blue;
+	padding: 5px;
+}
 
 
 
